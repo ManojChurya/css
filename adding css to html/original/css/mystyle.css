@@ -1,0 +1,160 @@
+body{
+	     background-color:grey;
+		 padding-top:0px;
+	
+	}
+
+h1:hover {
+              color:#00FFFF;
+		     }			  
+h2{
+		background-color:white;
+		padding:5px;
+	}
+	h3{
+		border:1px solid #00FFFF;
+		border-radius:15px;
+		text-align:center;
+	}
+p{
+	 color:white;
+	 font-size:25px;
+	 font-family:calibri;
+   }
+
+div.container {
+                     width: 100%;
+				  }
+
+header{
+	padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+	position:fixed;
+	right:0;
+	left:0;
+	font-family:britannic bold;
+}
+footer {
+	padding: 1em;
+	color: white;
+	background-color:black;
+	text-align: center;
+	
+	}
+nav {
+	 float: left;
+     max-width: 250px;
+     margin: 0;
+     padding:10px;
+	 font-family:calibri;
+	 
+}
+nav ul  {
+             list-style-type: none;
+			 padding:;
+          }
+
+   
+nav ul a{
+    text-decoration: none;
+	font-family:calibri;
+	
+	
+}
+
+
+nav ul li{
+	width:120px;
+     background-color:#00FFFF;
+	 -webkit-transition: width 2s; /* Safari */
+    transition: width 2s; 
+	padding:5px;
+}
+#div1{
+	     -webkit-transition-timing-function: ease;
+	}
+nav ul li:hover{
+	padding:5px;
+	width: 230px;
+  }
+a:hover{
+	color:black;
+	
+	
+}
+	
+article {
+    
+    margin-left: 260px;
+    padding: 1em;
+    overflow: hidden;
+	height:100%;
+
+}
+table {
+	color:white;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+}
+code{
+	font-size:17px;
+}
+
+div.coding{
+	            font-size:17px;
+                color:white;
+				border:1px solid grey;
+				border-radius:10px;
+				padding-left:10px;
+			}
+div.coding:hover{
+	background-color:grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gh{
+}	                    
+                        color: white;
+						text-align: center;
+						background-color: black;
+                      
+					  h1{
+	 
+	 right:0; 
+	 left:0; 
+	 text-align:center;
+	 color:white;
+	}
