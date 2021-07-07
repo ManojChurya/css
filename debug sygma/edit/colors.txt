@@ -1,0 +1,7 @@
+COLOR:
+           #31f709
+           #ff120a
+           #ffbf0f
+           #eeeeee
+           #dddddd
+           #a70000          
