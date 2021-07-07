@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Nesting</title>
+<meta charset="utf=8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css\css1.css">
+<style>
+body{	   
+           background-image: url(1.jpg);
+           background-color:#fc7803;
+           background-attachment: fixed;
+           background-position: center;
+           background-repeat: no-repeat;
+	       background-size: cover;	  
+ }
+</style>
+</head>
+<body>
+   <header>
+<h1 align="center">Nesting of Main Method</h1>
+  </header>
+	 
+ <div class="menu">
+<ul>
+<li><a href="main.html">Main Method</a></li>
+<li><a href="Declaring.html">Declaring</a></li>
+<li><a href="Invoking.html">Invoking</a></li>
+<li><a href="Nesting.html">Nesting</a></li>		
+</ul>
+</div><center><h3>Method of a class can be invoked only by an object of that class.<br>A method can be called using only its name by another method of the same class
+<pre>Here is an example of nesting of methods inside a class , Class Nesting defines two methods - Largest() and Max()
+The method Largest() calls the method Max() to determine the largest of the two numbers and displays the result</pre></h3></center> 
+<pre><h3>			using System;
+			class Nesting							|
+			{								|
+				void Largest(int m, int n)				|	A method can call any number of methods.
+				{							|	
+					int large=Max(m.n);		//Nesting	|	
+					Console.WriteLine(Large);			|	It is also possible for a called method 
+				}							|	to call another method.
+				int Max(int m, int n)					|	
+				{							|	Method 1 may call Mehod 2, 
+					int x = ( m > n ) ? m : n ;			|	which in turn may call Method 3
+					return ( x ) ;					|
+				}							|
+			}								|
+			class NestTesting						|	Here, the method main call Largest method
+			{								|	which in turn calls Max method.
+				public static void main()				|
+				{							|
+					Nesting next = new Nesting();			|
+					next.Largest(100,200);	//Method Call		|	The result is___
+				}
+			}
+</h3></pre>
+<a href="End.html">.</a>
+</body>
+</html>

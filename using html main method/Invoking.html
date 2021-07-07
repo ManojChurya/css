@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Invoking</title>
+<meta charset="utf=8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css\css1.css">
+<style>
+body{	   
+           background-image: url(1.jpg);
+           background-color:#fc7803;
+           background-attachment: fixed;
+           background-position: center;
+           background-repeat: no-repeat;
+	       background-size: cover;	  
+ }
+</style>
+</head>
+<body>
+   <header>
+<h1 align="center">Invoking of Main Method</h1>
+  </header>
+	 
+ <div class="menu">
+<ul>
+<li><a href="main.html">Main Method</a></li>
+<li><a href="Declaring.html">Declaring</a></li>
+<li><a href="Invoking.html">Invoking</a></li>
+<li><a href="Nesting.html">Nesting</a></li>		
+</ul>
+</div>
+<center><h3>Once methods have been defined, they must be activated for operations.<br>The process of activating a method is know as invoking or calling.<br>The invoking is done using the dot operator as<pre>objectname.methodname(actual-parameter-list);</pre>objectname is the name of the object which we are calling the methodname.<br>The actual-parameter-list is a comma separated list of actual values that must match in type with the formal parameter list of method name declared in the class</h3></center> 
+<pre><h3>	Here is an example of invoking of methods , method named cube, method class, MethodTest class is used to invoke the cube using dot operator.
+			using System;
+			class Method							|	//class containing the method
+			{								|
+				int cube (int x)					|	//define the cube method
+				{							|	
+					return ( x * x * x ) ;				|	
+				}							|
+			}								|	
+			class MethodTest						|	//Client class to invoke the cube method
+			{								|	
+				public static void main()				|
+				{							|
+					Method M = new Method();			|	//Create object for invoking cube
+					int y = M.Cube ( 5 ) ;				|	//Method Call
+					Console.WriteLine( y );				|	The result is___
+				}
+			}
+</h3></pre>
+<a href="End.html">.</a>
+</body>
+</html>

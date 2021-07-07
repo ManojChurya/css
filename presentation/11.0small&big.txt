@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>
+
+big & small
+
+</title>
+
+</head>
+
+<body>
+
+<p><center><big>Shri Dharmasthala Manjunatheshwara College of Business Management</big> <br> <small>Mangaluru</small></center></p>
+
+</body>
+
+</html>

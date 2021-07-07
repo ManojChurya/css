@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>
+
+paragraph
+
+</title>
+
+</head>
+
+<body>
+
+<p>Shri Dharmasthala Manjunatheshwara College of Business Management Mangaluru</p>
+
+</body>
+
+</html>

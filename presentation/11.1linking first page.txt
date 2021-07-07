@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>
+
+link 1
+
+</title>
+
+</head>
+
+<body>
+
+<center>
+
+<h1><a href="11.2linking second page.html">first page</a></h1>
+
+</center>
+
+</body>
+
+</html>
